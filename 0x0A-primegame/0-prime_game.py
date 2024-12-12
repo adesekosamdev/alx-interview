@@ -26,7 +26,7 @@ def isWinner(x, nums):
         x (int): no. of rounds of game
         nums (int): upper limit of range for each round
     Return:
-        Name of winner (Maria or Ben) or None if winner cannot be found
+        Name of winner (Maria or Ben) or None if the winner cannot be found
     """
     if x is None or nums is None or x == 0 or nums == []:
         return None
